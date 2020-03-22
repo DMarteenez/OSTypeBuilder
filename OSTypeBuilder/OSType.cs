@@ -8,9 +8,12 @@ namespace OSTypeBuilder
 {
     class OSType
     {
+        /// <summary>OS type</summary>
         public string type;
+        /// <summary>OS features</summary>
         public List<string> features;
 
+        /// <summary>Prints OS type and features to console</summary>
         public void showInfo()
         {
             Console.WriteLine("OS Type: " + type);
